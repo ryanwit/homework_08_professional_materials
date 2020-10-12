@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+ 
+      <!-- We link our html to the Bootstrap CDN -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        
+      <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+      <!-- nav bar has the correct tab marked as active -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Welcome</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- created container section for images of portfolio - images are mobile responsive -->
+  <div class="container">
+    
+
+    <div class="row">
+      <div class="col-4">
+        <p>This is image 1</p>
+          <img src="assets/images/port1.jpg" class="img-thumbnail" alt="port1">
+      </div>
+
+      <div class="col-4">
+          <p>This is image 2</p>
+        <img src="assets/images/port2.jpg" class="img-thumbnail" alt="port2"> 
+      </div>
+
+      <div class="col-4">
+        <p>This is image 3</p>
+      <img src="assets/images/port3.jpg" class="img-thumbnail" alt="port3"> 
+    </div>
+
+    <div class="row">
+      <div class="col-4">
+        <p>This is image 4</p>
+          <img src="assets/images/port4.jpg" class="img-thumbnail" alt="port4">
+      </div>
+
+      <div class="col-4">
+          <p>This is image 5</p>
+        <img src="assets/images/port5.jpg" class="img-thumbnail" alt="port5"> 
+      </div>
+      
+      <div class="col-4">
+        <p>This is image 6</p>
+      <img src="assets/images/port6.jpg" class="img-thumbnail" alt="port6"> 
+    </div>
+       
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+<!-- added footer section -->
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted">Copyright 2020 Ryan Witherspoon</span>
+      </div>
+    </footer>
+
+
+
+
+  <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+
+</body>
+</html>
